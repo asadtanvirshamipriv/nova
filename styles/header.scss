@@ -1,0 +1,117 @@
+header{
+    color: white !important;
+    padding: 4px 0;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    transition: all .8s ease !important;
+}
+
+.header-shrink{ 
+    margin-top: 0 !important;
+    background-color:#232529;   
+    padding: 4px 0;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    color:#3464eb;
+    transition: all .8s ease !important;}
+
+.nav-container{
+    margin-top: 0 !important;
+    background-color:#232529;   
+    padding: 4px 0;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    transition: all .8s ease !important;
+
+}
+
+.offcanvas-body-lg{
+    margin-top: 0;
+    background-color: #232529 !important;
+    transition: all .1s ease !important;
+}
+
+.header_brand{
+font-family: 'Revamped', sans-serif;
+background: -webkit-linear-gradient(#3464eb, white);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30px;
+}
+
+.page-links-sm{
+    font-weight: 640;
+    font-size: large;
+    color: #232529;
+    &:hover{
+        font-weight: 640;
+        font-size: large;
+        background: -webkit-linear-gradient(#d6c43c, #d6c43c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+.page-links-lg{
+    color: white !important;
+    font-weight: 640;
+    font-size: large;
+    color: white;
+    &:hover{
+        font-weight: 640;
+        font-size: large;
+        background: -webkit-linear-gradient(#3464eb, #3464eb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.page-links-lg:after { 
+    display:block;
+    content: '';  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    font-size: 17px;
+    border:solid transparent 0.1px;
+    cursor: pointer !important ;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 640;
+  }
+.page-links-lg:hover:after{
+    border-bottom: solid 3px #3464eb ;
+    cursor: pointer !important;
+    transition-duration: 800ms;
+    transform: scaleX(1) !important;    
+}
+.page-links-sm:after { 
+    display:block;
+    content: '';  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    font-size: 17px;
+    border:solid transparent 0.1px;
+    cursor: pointer !important ;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 640;
+  }
+.page-links-sm:hover:after{
+    border-bottom: solid 3px #3464eb ;
+    cursor: pointer !important;
+    transition-duration: 800ms;
+    transform: scaleX(1) !important;    
+}
+
+.navbar-toggler-icon{
+    background-image: url('../public/icons8-menu-24.png') !important  ;
+}
+.navbar-toggler:focus{
+    color: #3464eb;
+    border-color: #3464eb;
+}
+.navbar-toggler{
+    border-radius: 40px;
+    background-color: 3464eb#d6c43c;
+    border-color: #3464eb;
+}

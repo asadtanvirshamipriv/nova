@@ -1,0 +1,43 @@
+.services-page-main{
+    min-height: 800px;
+    display: flex;
+    position: relative;
+    z-index: 1;  
+    max-width: 100%;
+    background: 'white';
+}   
+.servicespage-content-div h1{
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3464eb;
+}
+.servicespage-content-div p{
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: justify;
+    color: #2a2b2b;
+}
+.servicespage-section-2{
+    background-color: #222;
+    padding: 50px;
+}
+.servicespage-section-2 h5{
+  color:#3464eb;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+}
+.servicespage-section-2 h3{
+    margin-top: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.servicespage-section-2 p{
+text-align: justify;
+}
+@media only screen and (max-width: 417px) {
+    .servicespage-section-2{
+        background-color: #222;
+        padding: 20px;
+        font-size: 14px;
+    }
+  
+}
