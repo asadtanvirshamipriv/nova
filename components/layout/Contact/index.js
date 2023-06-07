@@ -34,17 +34,21 @@ const Index = () => {
                 <br/>
                 <li>
                   <img src={'email.png'} className='img-fluid mx-3' style={{height:35}}/>
-                  <span style={{position:'relative', top:3}}>Info email: info@syzektech.com</span>
+                  <span style={{position:'relative', top:3}}>Info email: info@novatechsoftwares.com</span>
                 </li>
                 <br/>
                 <li>
                   <img src={'email.png'} className='img-fluid mx-3' style={{height:35}}/>
-                  <span style={{position:'relative', top:3}}>Support email: support@syzektech.com</span>
+                  <span style={{position:'relative', top:3}}>Support email: support@novatechsoftwares.com</span>
                 </li>
                 <br/>
                 <li>
                   <img src={'location.png'} className='img-fluid mx-3' style={{height:35}}/>
                   <span style={{position:'relative', top:3}}>Usa,Texas</span>
+                </li>
+                <li>
+                  <img src={'location.png'} className='img-fluid mx-3 mt-3' style={{height:35}}/>
+                  <span style={{position:'relative', top:3}}>Karachi,Pakistan</span>
                 </li>
                 <br/>
               </ul>
@@ -57,28 +61,28 @@ const Index = () => {
           <Form>
             <Row className="mb-3">
               <Form.Group as={Col} md={6} controlId="formGridEmail" className="mb-3">
-                <Form.Label>First Name</Form.Label>
+                <Form.Label className='form-lbl'>First Name</Form.Label>
                 <Form.Control type="text" placeholder="First Name" />
               </Form.Group>
 
               <Form.Group as={Col}md={6} controlId="formGridPassword">
-                <Form.Label>Last Name</Form.Label>
+                <Form.Label className='form-lbl'>Last Name</Form.Label>
                 <Form.Control type="text" placeholder="Last Name" />
               </Form.Group>
             </Row>
             <Row className="mb-3">
               <Form.Group as={Col} controlId="formGridZip">
-                <Form.Label>Phone Number</Form.Label>
+                <Form.Label className='form-lbl'>Phone Number</Form.Label>
                 <Form.Control />
               </Form.Group>
               <Form.Group as={Col} md={6} className="mb-3" controlId="formGridAddress1">
-              <Form.Label>Email</Form.Label>
+              <Form.Label className='form-lbl'>Email</Form.Label>
               <Form.Control type="email" placeholder="xyz@gmail.com" />
             </Form.Group>
             </Row>
             <Row className="mb-3">
             <Form.Group as={Col} md={12} controlId="formGridCity">
-                <Form.Label>Message</Form.Label>
+                <Form.Label className='form-lbl'>Message</Form.Label>
                 <Form.Control as="textarea" rows={5} />
               </Form.Group>
             </Row>

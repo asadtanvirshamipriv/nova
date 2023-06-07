@@ -13,6 +13,7 @@
     font-size: 20px;
 }
 .contact-content ul li{
+    color: white;
     font-size: 18px;
 }
 .contact-content img{
@@ -48,13 +49,17 @@
 .contact-div h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     font-size: 40px;
+    color: white !important
 }
 .contact-form-div{
     max-width: 100%;
+    color: white !important;
 }
 @media (max-width: 425px){
     .contact-form-div{
         max-width: 100%;
+
+        color: white !important
     }
     .contact-form-div h3{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
@@ -63,6 +68,10 @@
 
 .section-div_main{
       /* ff 3.6+ */
-      background: rgb(2,0,36);
-      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(166,130,45,1) 0%, rgba(255,231,0,1) 100%);
+      background: rgb(52,59,235);
+      background: linear-gradient(90deg, rgba(52,59,235,1) 0%, rgba(0,181,255,1) 100%);
+}
+
+.form-lbl{
+    color: white !important;
 }
